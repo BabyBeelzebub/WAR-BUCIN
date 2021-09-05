@@ -15,20 +15,20 @@ async def koc(e):
         await e.edit("💞💕💗💘")
         await e.edit("💘💞💗💕")
         await e.edit("💘💞💕💗")
-        await e.edit("SAYANG ARAA 💝💖💘")
+        await e.edit("SAYANG bila 💝💖💘")
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
         await e.edit("💘💞💕💗")
         await e.edit("SAYANG")
-        await e.edit("ARAAAA")
+        await e.edit("Salsabila")
         await e.edit("SELAMANYA 💕")
         await e.edit("💘💘💘💘")
         await e.edit("SAYANG")
-        await e.edit("ARA")
+        await e.edit("Mamah")
         await e.edit("SAYANG")
         await e.edit("ARA")
         await e.edit("I LOVE YOUUUU")
-        await e.edit("MY BABY")
+        await e.edit("MY friend")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
         await e.edit("CINTA SEKEBON💞")
@@ -49,13 +49,13 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Eh jadi udang di balik batu`")
     sleep(1)
-    await typew.edit("`Trs insecure liat Arra yg cantik`")
+    await typew.edit("`Trs malas ku tengok korang`")
     sleep(1)
     await typew.edit("`Trs pungguk jadi bisa terbang `")
     sleep(1)
-    await typew.edit("`Buat ngejar Ara`")
+    await typew.edit("`Buat timpuk korang`")
     sleep(1)
-    await typew.edit("`Tapi kalah sm botnya beelzebub`")
+    await typew.edit("`Tapi kalah sm jago sm gw`")
     sleep(1)
     await typew.edit("`jadi gini kenapa ikan `")
     sleep(1)
@@ -79,13 +79,13 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`ko blibet knp siii`")
     sleep(1)
-    await typew.edit("`Buat Araaaa`")
+    await typew.edit("`Buat Salsa`")
     sleep(1)
-    await typew.edit("`Gw naksir sm Aara`")
+    await typew.edit("`Gw nyaman`")
     sleep(1)
-    await typew.edit("`Sayang Sikap Ara yg tegas`")
+    await typew.edit("`Sayang Sikap bila yg tegas`")
     sleep(1)
-    await typew.edit("`Bodonya yg lucu`")
+    await typew.edit("`Khilafnya yg lucu`")
     sleep(1)
     await typew.edit("`Jangan di puji mulu y kan`")
     sleep(1)
@@ -93,7 +93,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`ARA MAU GA SI?`")
     sleep(1)
-    await typew.edit("`JADI PACAR DARI PEMILIK AKUN BEELZEBUB`")
+    await typew.edit("`Jd Kawan dr Jay`")
     sleep(2)
     await typew.edit("`Jangan di tolak`")
     sleep(1)
@@ -103,9 +103,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Kuhormati keputusanmu`")
     sleep(1)
-    await typew.edit("`Aaaaaarrrrraaaaaaa`")
+    await typew.edit("`Salsabila`")
     sleep(1)
-    await typew.edit("`Mau ga jadi pacar yg nyusun kata kata ini??`")
+    await typew.edit("`Mau ga jadi kawan yg nyusun kata kata ini??`")
     sleep(2)
     await typew.edit("`Mau yaaaaaa??`")
     sleep(1)
@@ -153,7 +153,7 @@ async def _(event):
         animation_chars = [
             "`Connecting Ke Server Cinta`",
             "`Mencari Server Cinta`",
-            "`Menemukan server Ara`",
+            "`Menemukan server Sabil`",
             "`Menghubungkan server Ara `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -163,13 +163,13 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cinta gw Sekarang Sepenuhnya Terkirim Pada Ara,Gw Cintai Ara, ILY SEKEBON Ara💞`"]
+            f"`Cinta gw Sekarang Sepenuhnya Terkirim Pada sasa,Gw Cintai Ara, ILY SEKEBON Bil💞`"]
 
         for i in animation_ttl:
 
             await asyncio.sleep(animation_interval)
 
-            await event.edit(animation_chars[i % 11])
+            await event.edit(animation_chars[i % 13])
 
 
 @register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
