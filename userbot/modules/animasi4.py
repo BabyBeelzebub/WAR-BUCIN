@@ -31,30 +31,30 @@ async def koc(e):
         await e.edit("MY SASA")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
-        await e.edit("CINTA SEKEBON💞")
+        await e.edit("CINTA SEKRESEK💞")
 
 
 @register(outgoing=True, pattern='^.nembasasa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Jadi gini aku sebelumnya udah bilang itu`")
+    await typew.edit("`Jadi gini sa`")
     sleep(2)
     await typew.edit("`Itu loh anu`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Jadi gini gw kan itu`")
     sleep(1)
     await typew.edit("`Ga tau kapan sih gw mati`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Jadi gw mo ngetik`")
     sleep(2)
     await typew.edit("`Eh jadi udang di balik batu`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Trs malas ku tengok korang`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Trs pungguk jadi bisa terbang `")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Buat timpuk korang`")
-    sleep(1)
+    sleep(2)
     await typew.edit("`Tapi kalah sm jago sm gw`")
     sleep(1)
     await typew.edit("`jadi gini kenapa ikan `")
@@ -142,7 +142,7 @@ async def _(event):
 
     animation_interval = 2
 
-    animation_ttl = range(0, 13)
+    animation_ttl = range(0, 15)
 
     input_str = event.pattern_match.group(1)
 
@@ -163,13 +163,15 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cinta gw sepenuhnya buat Sasa,Gw Cintai Sasa, ILY SEKEBON SA💞`"]
+            "`Reported `",    
+            "``Cinta gw sepenuhnya buat Sasa,Gw Cintai Sasa,Gw janji ga bakal niggalin Sasa tanpa alasan jelas `",
+            f" ILY SEKEBON SA💞`"]
 
         for i in animation_ttl:
 
             await asyncio.sleep(animation_interval)
 
-            await event.edit(animation_chars[i % 13])
+            await event.edit(animation_chars[i % 15])
 
 
 @register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
