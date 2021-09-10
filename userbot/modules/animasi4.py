@@ -15,7 +15,7 @@ async def koc(e):
         await e.edit("💞💕💗💘")
         await e.edit("💘💞💗💕")
         await e.edit("💘💞💕💗")
-        await e.edit("SAYANG bila 💝💖💘")
+        await e.edit("SAYANG Bila 💝💖💘")
         await e.edit("💝💘💓💗")
         await e.edit("💞💕💗💘")
         await e.edit("💘💞💕💗")
@@ -26,9 +26,9 @@ async def koc(e):
         await e.edit("SAYANG")
         await e.edit("Mamah")
         await e.edit("SAYANG")
-        await e.edit("ARA")
+        await e.edit("SASA")
         await e.edit("I LOVE YOUUUU")
-        await e.edit("MY friend")
+        await e.edit("MY SASA")
         await e.edit("💕💞💘💝")
         await e.edit("💘💕💞💝")
         await e.edit("CINTA SEKEBON💞")
@@ -163,7 +163,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cinta gw Sekarang Sepenuhnya Terkirim Pada Sasa,Gw Cintai Ara, ILY SEKEBON SA💞`"]
+            f"`Cinta gw sepenuhnya buat Sasa,Gw Cintai Sasa, ILY SEKEBON SA💞`"]
 
         for i in animation_ttl:
 
