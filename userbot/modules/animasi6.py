@@ -96,7 +96,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("KALEM")
     sleep(1)
-    await typew.edit("Kaya")
+    await typew.edit("Tajir")
     sleep(1)
     await typew.edit("Itinya JAY dl ga si")
     sleep(2)
@@ -104,7 +104,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("Bersama Babi Membangun Negri")
     sleep(1)
-    await typew.edit("eh salah salah, \nBersama **JAY** Membami jamet Negri")
+    await typew.edit("eh salah salah, \nBersama **JAY** Membasmi jamet Negeri")
     
 @register(outgoing=True, pattern='^.erpe(?: |$)(.*)')
 async def typewriter(typew):
