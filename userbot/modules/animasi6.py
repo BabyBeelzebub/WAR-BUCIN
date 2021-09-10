@@ -133,7 +133,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Cuma Mau Bilang`")
+    await typew.edit("`Sa Cuma Mau Bilang`")
     sleep(1)
     await typew.edit("`A`")
     await typew.edit("`Ak`")
@@ -222,6 +222,18 @@ async def typewriter(typew):
     await typew.edit("`Pengen😫`")
     sleep(1)
     await typew.edit("`Ayukkk Slipkol🤤`")
+    
+    
+@register(outgoing=True, pattern='^.ngantuk(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Ayanggggg ngantukk😖`")
+    sleep(1)
+    await typew.edit("`Pengen Bobo😫`")
+    sleep(1)
+    await typew.edit("`Sambil dengerin Sasa`")
+    sleep(1)
+    await typew.edit("`Ayukkk Slipkol🤤`")
 
 @register(outgoing=True, pattern='^.engas(?: |$)(.*)')
 async def typewriter(typew):
@@ -257,7 +269,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("👻")
     sleep(2)
-    await typew.edit("**⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️**\n\n [𝚂𝚎𝚗𝚝𝚞𝚑 𝙰𝚔𝚞 𝙱𝚎𝚋]𝐓𝐡𝐚𝐧𝐤𝐬 𝐅𝐨𝐫 𝐔𝐬𝐢𝐧𝐠👻")
+    await typew.edit("**⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️**👻")
 
    
 @register(outgoing=True, pattern='^.ehm(?: |$)(.*)')
