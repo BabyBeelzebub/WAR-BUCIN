@@ -34,7 +34,7 @@ async def koc(e):
         await e.edit("CINTA SEKEBON💞")
 
 
-@register(outgoing=True, pattern='^.nembakara(?: |$)(.*)')
+@register(outgoing=True, pattern='^.nembasasa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Jadi gini aku sebelumnya udah bilang itu`")
@@ -45,7 +45,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Ga tau kapan sih gw mati`")
     sleep(1)
-    await typew.edit("`Maka dari itu tata kata gw jd kiasan`")
+    await typew.edit("`Jadi gw mo ngetik`")
     sleep(2)
     await typew.edit("`Eh jadi udang di balik batu`")
     sleep(1)
@@ -59,7 +59,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`jadi gini kenapa ikan `")
     sleep(1)
-    await typew.edit("`Ngaa`")
+    await typew.edit("`Ngaa gtu sii`")
     sleep(1)
     await typew.edit("`Jay ini sadar diri sebenernya`")
     sleep(1)
@@ -91,13 +91,13 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`JADI GMN??`")
     sleep(1)
-    await typew.edit("`ARA MAU GA SI?`")
+    await typew.edit("`SASA MAU GA SI?`")
     sleep(1)
-    await typew.edit("`Jd Kawan dr Jay`")
+    await typew.edit("`Jd Pacar dr Jay`")
     sleep(2)
-    await typew.edit("`Jangan di tolak`")
+    await typew.edit("`Harus diterima`")
     sleep(1)
-    await typew.edit("`Nanti aku nangis`")
+    await typew.edit("`Klo ditolak ya uda si`")
     sleep(1)
     await typew.edit("`Terserah padamu aku begini adanya`")
     sleep(2)
@@ -105,7 +105,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`Salsabila`")
     sleep(1)
-    await typew.edit("`Mau ga jadi kawan yg nyusun kata kata ini??`")
+    await typew.edit("`Mau ga jadi Pacar gw??`")
     sleep(2)
     await typew.edit("`Mau yaaaaaa??`")
     sleep(1)
@@ -154,7 +154,7 @@ async def _(event):
             "`Connecting Ke Server Cinta`",
             "`Mencari Server Cinta`",
             "`Menemukan server Sabil`",
-            "`Menghubungkan server Ara `",
+            "`Menghubungkan server Sasa `",
             "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
@@ -163,7 +163,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            f"`Cinta gw Sekarang Sepenuhnya Terkirim Pada sasa,Gw Cintai Ara, ILY SEKEBON Bil💞`"]
+            f"`Cinta gw Sekarang Sepenuhnya Terkirim Pada Sasa,Gw Cintai Ara, ILY SEKEBON SA💞`"]
 
         for i in animation_ttl:
 
