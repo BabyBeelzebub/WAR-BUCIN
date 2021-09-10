@@ -124,7 +124,6 @@ async def typewriter(typew):
     await typew.edit("`Maaf anda terlalu alay dan jelek`")
     sleep(2)
     await typew.edit("`Selamat ANDA TERTOLAK SECARA HALUS`")
-   
 
 
 @register(outgoing=True, pattern="^.mf$")
@@ -163,7 +162,7 @@ async def _(event):
             "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
             "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
             "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
-            "`Reported `",    
+            "`Reported `",
             "``Cinta gw sepenuhnya buat Sasa,Gw Cintai Sasa,Gw janji ga bakal niggalin Sasa tanpa alasan jelas `",
             f" ILY SEKEBON SA💞`"]
 

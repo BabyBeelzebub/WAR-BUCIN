@@ -7,6 +7,7 @@ from userbot.events import register
 from telethon import events
 import asyncio
 
+
 @register(outgoing=True, pattern=r"^\.ywc(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -37,26 +38,26 @@ async def typewriter(typew):
     await typew.edit("**MENTAL TEMPE**")
     sleep(1.5)
     await typew.edit("**LEMBEK NGENTOT🔥**")
-    
-    
+
+
 @register(outgoing=True, pattern=r"^\.asu(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    menunggu  ketik . edit ( "**LU TAU ANJING GA? IYA ITU LU 1 SPESIES TAU GAA KNP? DARI TADI LU GONGGONG BACOT DOANG ISINYA NGEHINA PARAH BET SI HINA BET GA ZII**" )
-    
-    
+    menunggu  ketik . edit("**LU TAU ANJING GA? IYA ITU LU 1 SPESIES TAU GAA KNP? DARI TADI LU GONGGONG BACOT DOANG ISINYA NGEHINA PARAH BET SI HINA BET GA ZII**")
+
+
 @register(outgoing=True, pattern=r"^\.cel(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**EH BABI HUTAN ITEM BURIK DEKIL KALO LU CMN BISA TYPING TANPA MATERI SAMA AJA KAYA CELENG CMN BISA MAJU MUNDUR PAHAM GA BEGO?**")
-    
+
 
 @register(outgoing=True, pattern=r"^\.bljr(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BANYAKIN BELAJAR TOLOL BIAR PINTER NYARI KOSA KATA MAKAN NYE KALO SEKOLA YANG BENER DONGO EH IYE GUA LUPA LU ANAK YATIM MUKA MUKA MACAM LU MANA BISA SEKOLAH MALU ORANG TUA LU AJA KAGA JELAS SIAPA TOLOL**")
-     
-    
+
+
 @register(outgoing=True, pattern=r"^\.pp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -64,61 +65,60 @@ async def typewriter(typew):
         "**PASANG PP DULU GOBLOK,BIAR ORANG-ORANG PADA TAU BETAPA HINA NYA MUKA LU 😆**"
     )
 
-    
+
 @register(outgoing=True, pattern=r"^\.kurus(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
         "**BOCAH MISKIN KEKURANGAN GIZI LU AJA UDAH KURUS KAYAK KANGKUNG GITU ANJING SINI GW KASI PAHAM SAMA LU PILIH DAN BELI MAKAN MAKANAN YANG BERNUTRISI BIAR OTAK LU CERDAS BISA NYUSUN KOSA KATA YG BERDAMAGE DIKITAN**"
     )
-    
+
+
 @register(outgoing=True, pattern=r"^\.krs(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
         "**OWH IYA GW BARU SADAR KALO KELUARGA LU FAKIR MISKIN YANG BUTUH BANTUAN DONASI BTW INI GW JG BANTU NYALURIN BANSOS LU MAU GA? SINI GW BAGI BIAR BISA MAKAN NYAMBUNG KEHIDUPAN TRUS MERATAPI NASIB YANG NGEBANGKE DI GW BARU SADAR KALO KELUARGA LU FAKIR MISKIN YANG BUTUH BANTUAN DONASI BTW INI GW JG BANTU NYALURIN BANSOS LU MAU GA? SINI GW BAGI BIAR BISA MAKAN NYAMBUNG KEHIDUPAN TRUS MERATAPI NASIB YANG NGEBANGKE DI KOLONG JEMBATAN"
     )
-    
-    
-@register(outgoing=True, pattern=r"^\.dp(?: |$)(.*)")
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
-        
- 
+
 
 @register(outgoing=True, pattern=r"^\.dp(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
-    
+
+
+@register(outgoing=True, pattern=r"^\.dp(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
+
 
 @register(outgoing=True, pattern=r"^\.so(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GAUSAH SOKAB SAMA GUA GOBLOK, LU BABU GA LEVEL!!**")
-    
+
 
 @register(outgoing=True, pattern=r"^\.nb(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MAEN BOT MULU ALAY NGENTOTT, KESANNYA NORAK GOBLOK!!!**")
-    
+
 
 @register(outgoing=True, pattern=r"^\.met(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**NAMANYA JUGA JAMET CAPER SANA SINI BUAT CARI NAMA**")
-    
-    
-    
+
+
 @register(outgoing=True, pattern=r"^\.but(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BOT BOT APA SI PAKE BOT SURREND PALA BAPAK KAU SURREND GINI GW KASI PAHAM BUAT MANUSIA BEGO KAYA LU YG GA BISA PAKE BOT SOSOAN LAMA MAIN TELE BOCAH LAMA TAPI GA BISA MANFAATIN CUMAN BISA WAR WAR TAI ANJING WAHAI SAMPAH GA ADA MANFAATNYA KASTA RENDAH USER TELEGRAM**"
-    )
+                     )
 
-    
+
 @register(outgoing=True, pattern=r"^\.war(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -147,7 +147,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**MATI AJA LU GOBLOK, GAGUNA LU HIDUP DI BUMI**")
-    
+
 
 @register(outgoing=True, pattern=r"^\.sokab(?: |$)(.*)")
 async def typewriter(typew):

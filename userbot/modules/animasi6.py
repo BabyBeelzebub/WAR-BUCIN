@@ -1,21 +1,20 @@
-#Module Punya Si @Pocongonlen
-#https://github.com/poocong/Pocong-Userbot
+# Module Punya Si @Pocongonlen
+# https://github.com/poocong/Pocong-Userbot
 #
-#Mau Maling Kah? 
-#Silahkan Maling Aja Xixixi
-#Gak Usah Sungkan
-#Peyy Minta Ya Hehe
+# Mau Maling Kah?
+# Silahkan Maling Aja Xixixi
+# Gak Usah Sungkan
+# Peyy Minta Ya Hehe
 
 from time import sleep
-from userbot import CMD_HELP, bot
+from userbot import CMD_HELP
 from userbot.events import register
-from telethon import events
-import asyncio
 
-#Sengaja Bikin Banyak Banyak Credit Nya
-#P o c o n g - U s e r b o t
-#Tapi Kalo Mau Maling Mah Silakan
-#Enjoy
+# Sengaja Bikin Banyak Banyak Credit Nya
+# P o c o n g - U s e r b o t
+# Tapi Kalo Mau Maling Mah Silakan
+# Enjoy
+
 
 @register(outgoing=True, pattern='^.hai(?: |$)(.*)')
 async def typewriter(typew):
@@ -30,8 +29,8 @@ async def typewriter(typew):
     await typew.edit("gasukaa😫")
     sleep(1)
     await typew.edit("__GELAYY__🤮")
-    
-   
+
+
 @register(outgoing=True, pattern='^.kntl(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -40,7 +39,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("se**KONT0L** **K0NTOL** nya si **K0NTOL**")
     sleep(1)
-    await typew.edit("lebih **KONTOL** lagi")              
+    await typew.edit("lebih **KONTOL** lagi")
     sleep(1)
     await typew.edit("kalian")
     await typew.edit("kalian **K**")
@@ -65,8 +64,8 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("pantes **NORAK**")
 
-    
-@register(outgoing=True, pattern='^.beegans(?: |$)(.*)') 
+
+@register(outgoing=True, pattern='^.beegans(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -105,7 +104,8 @@ async def typewriter(typew):
     await typew.edit("Bersama Babi Membangun Negri")
     sleep(1)
     await typew.edit("eh salah salah, \nBersama **JAY** Membasmi jamet Negeri")
-    
+
+
 @register(outgoing=True, pattern='^.erpe(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -127,8 +127,8 @@ async def typewriter(typew):
     await typew.edit("Canda **BURIK**")
     sleep(1)
     await typew.edit("Lari Ada Plastik KePanasan")
-    
-    
+
+
 @register(outgoing=True, pattern='^.lopu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -155,7 +155,8 @@ async def typewriter(typew):
     await typew.edit("`Aku Sayang Salsabila`")
     sleep(1)
     await typew.edit("`I LOVE YOU 💞`")
-    
+
+
 @register(outgoing=True, pattern='^.hujan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -213,7 +214,8 @@ async def typewriter(typew):
     await typew.edit("`Kenapa Ya Gw Coli Tadi😔`")
     sleep(2)
     await typew.edit("`Dah la besok besok ga mau lagi`")
-    
+
+
 @register(outgoing=True, pattern='^.ange(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -222,8 +224,8 @@ async def typewriter(typew):
     await typew.edit("`Pengen😫`")
     sleep(1)
     await typew.edit("`Ayukkk Slipkol🤤`")
-    
-    
+
+
 @register(outgoing=True, pattern='^.ngantuk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -234,6 +236,7 @@ async def typewriter(typew):
     await typew.edit("`Sambil dengerin Sasa`")
     sleep(1)
     await typew.edit("`Ayukkk Slipkol🤤`")
+
 
 @register(outgoing=True, pattern='^.engas(?: |$)(.*)')
 async def typewriter(typew):
@@ -251,19 +254,19 @@ async def typewriter(typew):
     await typew.edit("Jangan di nanti - nanti")
     sleep(1)
     await typew.edit("Ayo kita happy")
-    sleep (1)
+    sleep(1)
     await typew.edit("Tapi pake pengaman")
-    
-    
+
+
 @register(outgoing=True, pattern='^.dahlah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**`Ayo Menyerah`**")
     sleep(2)
     await typew.edit("**`Ngapain Semangat`**")
-                     
-    
-@register(outgoing=True, pattern='^.repobot(?: |$)(.*)')  
+
+
+@register(outgoing=True, pattern='^.repobot(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -271,7 +274,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**⚜️•ʙɛɛ⸸ʑɛʙᴜʙ✰̶✰̶⚜️**👻")
 
-   
+
 @register(outgoing=True, pattern='^.ehm(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -284,13 +287,12 @@ async def typewriter(typew):
     await typew.edit("Gamau nyoba?")
     sleep(2)
     await typew.edit("Aman ko ga aneh aneh")
-    
 
-    
-#P o c o n g - U s e r b o t
-#Ini Tercipta Hasil kegabutan ku Doang
-#Jadi Ga Usah Bacot Ngentod
-    
+
+# P o c o n g - U s e r b o t
+# Ini Tercipta Hasil kegabutan ku Doang
+# Jadi Ga Usah Bacot Ngentod
+
 CMD_HELP.update({
     "animasi6":
     "•   **Syntax**: .hai\
@@ -315,6 +317,6 @@ CMD_HELP.update({
     \n•**Function**: Jawa Pride Ni Bos.\
     \n\n   •**Syntax**: .erpe\
     \n•**Function**: Buat Nyindir Nak Rp Yg Goblok."
-    
-    
+
+
 })
