@@ -62,7 +62,6 @@ async def koc(e):
         await e.edit("CINTA SEKRESEK💞")
 
 
-
 @register(outgoing=True, pattern='^.nembasasa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -241,8 +240,8 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 15])
-            
-            
+
+
 @register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)

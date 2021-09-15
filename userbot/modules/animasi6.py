@@ -156,6 +156,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`I LOVE YOU 💞`")
 
+
 @register(outgoing=True, pattern='^.lopu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -178,7 +179,8 @@ async def typewriter(typew):
     await typew.edit("`Aku Sayang Linda`")
     sleep(1)
     await typew.edit("`I LOVE YOU 💞`")
-    
+
+
 @register(outgoing=True, pattern='^.hujan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
