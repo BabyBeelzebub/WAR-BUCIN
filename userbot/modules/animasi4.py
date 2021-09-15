@@ -33,6 +33,35 @@ async def koc(e):
         await e.edit("💘💕💞💝")
         await e.edit("CINTA SEKRESEK💞")
 
+        @register(outgoing=True, pattern="^.sayanglinda$")
+async def koc(e):
+    if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
+        await e.edit("I LOVEE YOUUU 💕")
+        await e.edit("💝💘💓💗")
+        await e.edit("💞💕💗💘")
+        await e.edit("💝💘💓💗")
+        await e.edit("💞💕💗💘")
+        await e.edit("💘💞💗💕")
+        await e.edit("💘💞💕💗")
+        await e.edit("SAYANG LINDA 💝💖💘")
+        await e.edit("💝💘💓💗")
+        await e.edit("💞💕💗💘")
+        await e.edit("💘💞💕💗")
+        await e.edit("SAYANG")
+        await e.edit("LINDA")
+        await e.edit("SELAMANYA 💕")
+        await e.edit("💘💘💘💘")
+        await e.edit("SAYANG")
+        await e.edit("Mamah")
+        await e.edit("SAYANG")
+        await e.edit("LINDA")
+        await e.edit("I LOVE YOUUUU")
+        await e.edit("MY LINDA")
+        await e.edit("💕💞💘💝")
+        await e.edit("💘💕💞💝")
+        await e.edit("CINTA SEKRESEK💞")
+
+
 
 @register(outgoing=True, pattern='^.nembasasa(?: |$)(.*)')
 async def typewriter(typew):
@@ -173,6 +202,47 @@ async def _(event):
             await event.edit(animation_chars[i % 15])
 
 
+@bot.on(events.NewMessage(pattern=r"\.(.*)", outgoing=True))
+async def _(event):
+
+    if event.fwd_from:
+
+        return
+
+    animation_interval = 2
+
+    animation_ttl = range(0, 15)
+
+    input_str = event.pattern_match.group(1)
+
+    if input_str == "cintalin":
+
+        await event.edit(input_str)
+
+        animation_chars = [
+            "`Connecting Ke Server Cinta`",
+            "`Mencari Server Cinta`",
+            "`Menemukan server Sabil`",
+            "`Menghubungkan server LINDA `",
+            "`Mengirim Cintaku.. 0%\n▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 4%\n█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 8%\n██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 20%\n█████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 36%\n█████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 52%\n█████████████▒▒▒▒▒▒▒▒▒▒▒▒ `",
+            "`Mengirim Cintaku.. 84%\n█████████████████████▒▒▒▒ `",
+            "`Mengirim Cintaku.. 100%\n█████████CINTAKU███████████ `",
+            "`Reported `",
+            "``Cinta gw sepenuhnya buat LINDA,Gw Cintai LINDA,Gw janji ga bakal niggalin Sasa tanpa alasan jelas `",
+            f" ILY SEKEBON LIN💞`"]
+
+        for i in animation_ttl:
+
+            await asyncio.sleep(animation_interval)
+
+            await event.edit(animation_chars[i % 15])
+            
+            
 @register(outgoing=True, pattern='^.yatim(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
