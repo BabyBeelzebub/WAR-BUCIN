@@ -157,7 +157,7 @@ async def typewriter(typew):
     await typew.edit("`I LOVE YOU 💞`")
 
 
-@register(outgoing=True, pattern='^.lopul(?: |$)(.*)')
+@register(outgoing=True, pattern='^.lopulin(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
