@@ -33,7 +33,7 @@ async def koc(e):
         await e.edit("💘💕💞💝")
         await e.edit("CINTA SEKRESEK💞")
 
-        @register(outgoing=True, pattern="^.sayanglinda$")
+@register(outgoing=True, pattern="^.sayanglinda$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("I LOVEE YOUUU 💕")
