@@ -38,8 +38,10 @@ LASTMSG = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 CUSTOM_MIDDLE_PMP = str(
-    CUSTOM_PMPERMIT_TEXT) if CUSTOM_PMPERMIT_TEXT else
+    CUSTOM_PMPERMIT_TEXT) if CUSTOM_PMPERMIT_TEXT else f"│Karena Saya Akan Otomatis Memblokir\n│Anda, Tunggu Sampai Tuan {DEFAULTUSER}\n│Menerima Pesan Lu Ya Anjing, Terimakasih.\n"
 DEF_UNAPPROVED_MSG = (
+
+
     "◄┈─╼━━━━━━━━━━━━━━━━━━━━━╾─┈╮\n"
         " WA'ALAIKUMMUSSALAM    │\n"
     "╭┈─╼━━━━━━━━━━━━━━━━━━━━━╾─┈╯\n"
